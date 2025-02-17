@@ -22,7 +22,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.gis',  # Wymagane dla PostGIS
-    
+    'gardens.apps.GardensConfig',  
+]
     # Aplikacje trzecie
     'rest_framework',
     'corsheaders',
